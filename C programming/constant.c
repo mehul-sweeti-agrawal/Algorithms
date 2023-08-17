@@ -1,8 +1,13 @@
-#include<stdio.h>
+#include<stdio.h> // standard input output library header
 
 // Defining constants using #define directive
-#define pi 3.14
+#define pi 3.14f
 #define size 512
+
+#define vtab '\013' // 013 is octal value for vertical tab
+#define bell '\007' // 007 is octal value for bell
+#define hbell '\x7' // hexadecimal value for bell
+#define tab '\t' // ascii value for tab
 
 void main() {
 
@@ -41,5 +46,7 @@ void main() {
   printf("\n Unsigned integer: %u", U);
   printf("\n pi: %f", pi);
   printf("\n size: %d", size);
+
+  printf("\nHello%cThis is bell sound%c", tab, hbell);
 
 }
