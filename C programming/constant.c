@@ -1,4 +1,5 @@
-#include<stdio.h> // standard input output library header
+#include<stdio.h>   // standard input output library header
+#include<signal.h>  // for signal handling
 
 // Defining constants using #define directive
 #define pi 3.14f
@@ -47,6 +48,6 @@ void main() {
   printf("\n pi: %f", pi);
   printf("\n size: %d", size);
 
-  printf("\nHello%cThis is bell sound%c", tab, hbell);
+  printf("\nHello%c%cThis is bell sound%c", tab, tab, hbell);
 
 }
