@@ -1,4 +1,4 @@
-// To update ith bit of a number based on user's choice
+// To update ith bit of a number based on user's choice (1 based indexing)
 
 #include<iostream>
 using namespace std;
